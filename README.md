@@ -10,9 +10,9 @@
 public DateTime Created { get; set; }
 ```
 
-จะ auto generate วันและเวลาปัจจุบันให้ใน MySql *แต่ไม่* auto generate ให้บน MSSql
+จะ auto generate วันและเวลาปัจจุบันให้ใน MySql **แต่ไม่** auto generate ให้บน MSSql
 
-*ใช้วิธีเซตใน Fluent API ชัวกว่า*
+**ใช้วิธีเซตใน Fluent API ชัวกว่า**
 ```
 modelBuilder.Entity<Customers>()
     .Property(b => b.Created)
